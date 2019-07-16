@@ -13,7 +13,7 @@ app.get("/", function(req, res) {
 app.post("/upload", function(req, res) {
   var myBucket = "kt-ad-images"; // Your bucket
   var myKey = "test"; // Your key name
-  // test add 111111
+  // test add 111111 22222
 
   s3.putObject(
     {
